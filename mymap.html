@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1097ae49366649f8b815531d5e53153c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1097ae49366649f8b815531d5e53153c" ></div>
+        
+</body>
+<script>    
+    
+            var map_1097ae49366649f8b815531d5e53153c = L.map(
+                "map_1097ae49366649f8b815531d5e53153c",
+                {
+                    center: [43.53314995007733, -79.87448465762664],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a9b1cdbe6db419eac023ec54c0d2f42 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+            var circle_marker_6bee2f59ee6946eebc4bd6ddb44b9784 = L.circleMarker(
+                [43.63712131, -79.88672708],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+        var popup_6984fc30e3d34be49493f77ea83a94c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2170d8791bad468f8ede156eb75e8e13 = $(`<div id="html_2170d8791bad468f8ede156eb75e8e13" style="width: 100.0%; height: 100.0%;">Halton Hills Trail - Last Cleaned: 11/20/2020</div>`)[0];
+            popup_6984fc30e3d34be49493f77ea83a94c4.setContent(html_2170d8791bad468f8ede156eb75e8e13);
+        
+
+        circle_marker_6bee2f59ee6946eebc4bd6ddb44b9784.bindPopup(popup_6984fc30e3d34be49493f77ea83a94c4)
+        ;
+
+        
+    
+    
+            var circle_marker_667540f8e90c48dcaf5bb23997d7eebc = L.circleMarker(
+                [43.48912891, -79.70089142],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+        var popup_c3eacda996a64f238792f8f30d1ebce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec4d55d7ea06458fadae759f276454ba = $(`<div id="html_ec4d55d7ea06458fadae759f276454ba" style="width: 100.0%; height: 100.0%;">Glenashton Park - Last Cleaned: 11/22/2020</div>`)[0];
+            popup_c3eacda996a64f238792f8f30d1ebce7.setContent(html_ec4d55d7ea06458fadae759f276454ba);
+        
+
+        circle_marker_667540f8e90c48dcaf5bb23997d7eebc.bindPopup(popup_c3eacda996a64f238792f8f30d1ebce7)
+        ;
+
+        
+    
+    
+            var circle_marker_932eef1bd0f74ad4925f6236722f207f = L.circleMarker(
+                [43.51308277, -79.9403215],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+        var popup_5e8b9516757c42d0a493faf098c44274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f47c46cc80b47ba9f831a28e14d400f = $(`<div id="html_2f47c46cc80b47ba9f831a28e14d400f" style="width: 100.0%; height: 100.0%;">Kelso Conservation Area - Last Cleaned: 11/23/2020</div>`)[0];
+            popup_5e8b9516757c42d0a493faf098c44274.setContent(html_2f47c46cc80b47ba9f831a28e14d400f);
+        
+
+        circle_marker_932eef1bd0f74ad4925f6236722f207f.bindPopup(popup_5e8b9516757c42d0a493faf098c44274)
+        ;
+
+        
+    
+    
+            var circle_marker_9f5c31da10af4572a3c37e1f090045bf = L.circleMarker(
+                [43.63712131, -79.88672708],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+        var popup_1799e2a23393489580ab14ad2d1c46de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa5a866deab04c08a79c70acb730b09e = $(`<div id="html_aa5a866deab04c08a79c70acb730b09e" style="width: 100.0%; height: 100.0%;">Halton Hills Trail - Last Cleaned: 11/22/2020</div>`)[0];
+            popup_1799e2a23393489580ab14ad2d1c46de.setContent(html_aa5a866deab04c08a79c70acb730b09e);
+        
+
+        circle_marker_9f5c31da10af4572a3c37e1f090045bf.bindPopup(popup_1799e2a23393489580ab14ad2d1c46de)
+        ;
+
+        
+    
+    
+            var circle_marker_ab2bf6d7218a475787b483d87b22e3f7 = L.circleMarker(
+                [43.5468709, -79.94746709],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_1097ae49366649f8b815531d5e53153c);
+        
+    
+        var popup_763468ea43014a0a8ef9561115579cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdc4f287978840768f21ba5e6864078c = $(`<div id="html_cdc4f287978840768f21ba5e6864078c" style="width: 100.0%; height: 100.0%;">Esquesing Conservation Area - Last Cleaned: 11/22/2020</div>`)[0];
+            popup_763468ea43014a0a8ef9561115579cb6.setContent(html_cdc4f287978840768f21ba5e6864078c);
+        
+
+        circle_marker_ab2bf6d7218a475787b483d87b22e3f7.bindPopup(popup_763468ea43014a0a8ef9561115579cb6)
+        ;
+
+        
+    
+</script>
